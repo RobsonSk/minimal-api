@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace minimal_api.Infra.Db
+namespace minimal_api.Domain.Enums
 {
-    public class DbContext
+    public enum Profile
     {
-        
+        Admin,
+        Editor,
+        User
     }
 }
